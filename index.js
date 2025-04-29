@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
         title: 'joel Xmd starting messages',
         bot_name: 'joel Xmd bot',
         creator: 'joeljamestech',
-        thumbnail: 'owner.jpg',
-        img: 'starting.jpg',
+        thumbnail: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg',
+        image: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg',
         caption: '╭━━ 『 ᴊᴏᴇʟ-ᴍᴅ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』 ┃\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: ᴊᴏᴇʟ-ᴍᴅ ┃\n┃  👑 ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ ┃\n┃  ⚙️ ᴍᴏᴅᴇ: ${config.MODE} ┃\n┃  🎯 ᴘʀᴇꜰɪx: ${config.PREFIX} ┃\n┃  ✅ ꜱᴛᴀᴛᴜꜱ: ᴏɴʟɪɴᴇ & ꜱᴛᴀʙʟᴇ\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ\n╰──────────────────★'
     };
     res.setHeader('Content-Type', 'application/json');
@@ -22,5 +22,6 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`✅ Joel XMD server running on port ${PORT}`);
+    console.log(`joel Xmd server running on port ${PORT}`);
 });
+//joel Xmd starting message server 
