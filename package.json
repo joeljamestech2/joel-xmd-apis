@@ -1,18 +1,16 @@
 {
-  "name": "starting message maker by lord joel",
+  "name": "joelxmd-api",
   "version": "1.0.0",
-  "description": "A simple apis made with node js that makes different stsrting messages ",
+  "description": "REST APIs for Joel XMD WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "nodemon index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "web",
-    "website",
-    "social",
-    "tool"
-  ],
-  "author": "joeljamestech",
-  "license": "ISC"
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "openai": "^4.27.0",
+    "joel-tech": "^4.11.3"
+  }
 }
