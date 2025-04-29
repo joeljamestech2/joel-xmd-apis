@@ -9,7 +9,9 @@ app.use(express.json());
 // Root Endpoint: Send formatted JSON
 app.get('/', (req, res) => {
     const data = {
-        title: 'Joel XMD Bot',
+        title: 'joel Xmd starting messages',
+        bot_name: 'joel Xmd bot',
+        creator: 'joeljamestech',
         thumbnail: 'owner.jpg',
         img: 'starting.jpg',
         caption: 'This is Joel XMD'
