@@ -10,7 +10,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.json({
         title: 'joel Xmd bot',
-        creator: 'joeljamestech'
+        creator: 'joeljamestech',
         thumbnail: 'owner.jpg',
         image: 'starting.jpg',
         caption: 'This is Joel XMD'
