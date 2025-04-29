@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
         creator: 'joeljamestech',
         thumbnail: 'owner.jpg',
         img: 'starting.jpg',
-        caption: 'This is Joel XMD'
+        caption: '╭━━ 『 ᴊᴏᴇʟ-ᴍᴅ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』 ┃\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: ᴊᴏᴇʟ-ᴍᴅ ┃\n┃  👑 ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ ┃\n┃  ⚙️ ᴍᴏᴅᴇ: ${config.MODE} ┃\n┃  🎯 ᴘʀᴇꜰɪx: ${config.PREFIX} ┃\n┃  ✅ ꜱᴛᴀᴛᴜꜱ: ᴏɴʟɪɴᴇ & ꜱᴛᴀʙʟᴇ\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ\n╰──────────────────★'
     };
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(data, null, 4)); // 4-space indentation
