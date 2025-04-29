@@ -1,7 +1,7 @@
 {
   "name": "joelxmd-api",
   "version": "1.0.0",
-  "description": "REST APIs for Joel XMD WhatsApp Bot",
+  "description": "starting message for joel Xmd wa bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
