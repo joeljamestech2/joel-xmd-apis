@@ -5,12 +5,14 @@ When you send a GET request to that URL, it responds with JSON data like this (e
 
 ```              
 {
-  "thumbnail": "https://example.com/thumb.jpg",
-  "image": "https://example.com/welcome.jpg",
-  "caption": "ʜᴇʟʟᴏ! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ${config.MODE} ʙᴏᴛ.\nᴘʀᴇғɪx: ${config.PREFIX}",
-  "bot_name": "ᴊᴏᴇʟ-ˣᴍᴅ",
-  "title": "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙᴏᴛ",
-  "creator": "ʟᴏʀᴅ ᴊᴏᴇʟ"
+    "title": "joel Xmd starting messages",
+    "bot_name": "joel Xmd bot",
+    "creator": "joeljamestech",
+    "channel_link": "https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K",
+    "channel_jid": "120363317462952356@newsletter",
+    "thumbnail": "https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg",
+    "image": "https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg",
+    "caption": "Today we recognize your dedication, patience, and hard work. We thank you for your continued trust and loyalty, we will continue to serve you."
 }
  ```              
 Each Field Explained:
