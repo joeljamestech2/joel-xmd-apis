@@ -17,8 +17,8 @@ app.get('/', (req, res) => {
         thumbnail: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg',
         image: 'https://i.waifu.pics/-ZeGw8v.gif',
         premiumumusers: '[255714595078,255781144539,255767570963,919862726575]',
-        caption: '╭━━━〔 *ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ᴀʟᴇʀᴛ* 〕━━━╮\n┃  *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ - ᴊᴏᴇʟ-ᴜᴘ ᴏɴ ᴛᴏᴘ*\n┃  \n┃  ✦ New futuristic **ᴍᴇɴᴜ** unlocked\n┃  ✦ Fresh set of **ᴄᴏᴍᴍᴀɴᴅꜱ** added in style\n┃  ✦ Entertaining **ɢᴀᴍᴇꜱ**: `connect4`, `wcg`, & more\n┃  ✦ Premium-exclusive features now live\n┃  \n┃  ⟶ *ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ:*\n┃     DM the **Owner** to upgrade your access\n┃  \n┃  ⟶ *ꜱᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ:*\n┃     Tap the button below & join the mission\n╰━━━━━━━━━━━━━━━━━━━╯\n**[ View Channel ]** → *t.me/joelxmdnews*\n\n_ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ᴊᴜꜱᴛ ᴀ ʙᴏᴛ, ɪᴛ’ꜱ ᴀ ꜱʏꜱᴛᴇᴍ ʀᴜɴ ʙʏ ꜰᴜᴛᴜʀᴇ._'
-    };
+        caption: '╭━━ 『 ᴊᴏᴇʟ-ᴍᴅ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: ᴊᴏᴇʟ-ᴍᴅ \n┃  👑 ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ \n┃  ⚙️ ᴍᴏᴅᴇ: *private*\n┃  🎯 ᴘʀᴇꜰɪx: *.*\n┃  ✅ ꜱᴛᴀᴛᴜꜱ: ᴏɴʟɪɴᴇ & ꜱᴛᴀʙʟᴇ\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ\n╰──────────────────★'
+        };
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(data, null, 4)); // 4-space indentation
 });
@@ -29,3 +29,4 @@ app.listen(PORT, () => {
 });
 //joel Xmd starting message server 
 //╭━━ 『 ᴊᴏᴇʟ-ᴍᴅ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: ᴊᴏᴇʟ-ᴍᴅ \n┃  👑 ᴏᴡɴᴇʀ: ʟᴏʀᴅ ᴊᴏᴇʟ \n┃  ⚙️ ᴍᴏᴅᴇ: *private*\n┃  🎯 ᴘʀᴇꜰɪx: *.*\n┃  ✅ ꜱᴛᴀᴛᴜꜱ: ᴏɴʟɪɴᴇ & ꜱᴛᴀʙʟᴇ\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ\n╰──────────────────★
+            
