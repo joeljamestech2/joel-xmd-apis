@@ -10,14 +10,14 @@ app.use(express.json());
 app.get('/', (req, res) => {
     const data = {
         title: 'joel Xmd starting messages',
-        bot_name: 'joel Xmd bot',
+        bot_name: ' ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ',
         creator: 'joeljamestech',
         channel_link: 'https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K',
         channel_jid: '120363317462952356@newsletter',
         thumbnail: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg',
-        image: 'https://files.catbox.moe/8y2ueh.jpg',
+        image: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg',
         premiumumusers: '[255714595078,255781144539,255767570963,919862726575]',
-        caption: '\`\`\`╭❍「JOEL XMD BOT」❍\`\`\`\n\`\`\`│mode: private\`\`\`\n\`\`\`│status: online\`\`\`\n\`\`\`│uptime: 2s\`\`\`\n\`\`\`│theme: joelXtech\`\`\`\n\`\`\`╰┬──────────❍\`\`\`\n\`\`\`╭┴❍「BOT STATUS」❍\`\`\`\n\`\`\`│follow joel xmd\`\`\`\n\`\`\`│wa channel for\`\`\`\n\`\`\`│updates\`\`\`\n\`\`\`╰─┬────❍\`\`\`'
+        caption: '\`\`\`╭❍「JOEL XMD BOT」❍\`\`\`\n\`\`\`│mode: private\`\`\`\n\`\`\`│status: online\`\`\`\n\`\`\`│uptime: 2s\`\`\`\n\`\`\`│theme: joelXtech\`\`\`\n\`\`\`╰──────────❍\`\`\`\n\`\`\`powered by joelXtec\`\`\`'
 };
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(data, null, 4)); // 4-space indentation
