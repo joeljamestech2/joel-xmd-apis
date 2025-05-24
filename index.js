@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
         channel_jid: '120363317462952356@newsletter',
         thumbnail: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXbot.jpg',
         image: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg',
-        premiumumusers: '[255714595078,255781144539,255767570963,919862726575]',
+        premiumumusers: '[255714595078,255781144539,255767570963,255684884538,919862726575]',
         caption: '\`\`\`╭❍「JOEL XMD BOT」❍\`\`\`\n\`\`\`│mode: private\`\`\`\n\`\`\`│status: online\`\`\`\n\`\`\`│uptime: 2s\`\`\`\n\`\`\`│theme: joelXtech\`\`\`\n\`\`\`╰──────────❍\`\`\`\n\`\`\`powered by joelXtec\`\`\`'
 };
     res.setHeader('Content-Type', 'application/json');
